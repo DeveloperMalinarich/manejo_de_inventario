@@ -1,0 +1,22 @@
+Sistema de Manejo de Inventario
+
+Base de Datos: Utiliza SQLite para almacenar la información del inventario. La base de datos debe tener al menos una tabla para almacenar los productos con campos como nombre, código, cantidad en stock y precio.
+
+Menú Principal: Implementa un menú principal que permita al usuario realizar diversas acciones, como:
+        Ver lista de productos en stock.
+        Agregar un nuevo producto al inventario.
+        Actualizar la cantidad de un producto.
+        Buscar un producto por su código.
+        Salir del programa.
+
+Operaciones:
+        Ver lista de productos: Muestra todos los productos en stock con sus detalles.
+        Agregar nuevo producto: Permite al usuario ingresar la información de un nuevo producto y lo añade a la base de datos.
+        Actualizar cantidad: Permite al usuario aumentar o disminuir la cantidad en stock de un producto existente.
+        Buscar producto por código: Busca un producto por su código y muestra sus detalles.
+
+Manejo de Errores: Implementa manejo de errores para casos como ingreso de datos inválidos, productos no encontrados, etc.
+
+Interfaz Amigable: Diseña una interfaz amigable para que sea fácil de entender y usar.
+
+Documentación: Incluye comentarios en tu código para explicar la lógica detrás de las funciones y cualquier decisión de diseño que consideres relevante.
